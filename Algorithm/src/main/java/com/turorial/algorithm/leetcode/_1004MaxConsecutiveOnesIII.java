@@ -43,7 +43,6 @@ public class _1004MaxConsecutiveOnesIII {
       }
 
       maxResult = Math.max(maxResult, i - j + 1);
-      // System.out.println("i="+i+" j="+j+" maxResult="+maxResult);
     }
     return maxResult;
   }

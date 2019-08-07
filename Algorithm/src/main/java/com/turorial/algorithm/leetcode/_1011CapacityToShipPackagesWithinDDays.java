@@ -20,8 +20,6 @@ public class _1011CapacityToShipPackagesWithinDDays {
 
       int mid = low + (high - low) / 2;
       int days = isCapacityValid(mid, weights);
-      // System.out.println("mid="+mid+" days="+days+" totalWeight="+totalWeight+" low="+low+"
-      // high="+high);
       if (days == D) {
         high = mid;
       } else if (days < D) {
